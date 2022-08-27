@@ -1,0 +1,19 @@
+class Solution{
+public int firstUniqChar(String s){
+for(int i=0;i<s.lenght();i++)
+{
+boolean a=true;
+for(j=0;j<s.length();j++)
+{
+  if(i!=j && s.charAt(i)==s.charAt(j))
+  {
+    a=false();
+    break;
+    }
+    }
+    if(a)
+      return i;
+      }
+      }
+      return -1;
+ }
